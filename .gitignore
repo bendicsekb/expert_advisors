@@ -1,0 +1,6 @@
+.idea
+results/
+settings/
+settings.json
+*.set
+parse.py
