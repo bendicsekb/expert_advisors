@@ -2,7 +2,7 @@
 The script makes a batch command:<br>
 <u>start /wait terminal.exe "testfile.txt"</u><br>
 
-This "testfile.txt" contains several parameters (see more at https://github.com/EA31337/EA-Tester/blob/master/conf/mt4-tester.ini)<br>
+This "testfile.txt" contains several parameters including credentials for a demo account (see more at https://github.com/EA31337/EA-Tester/blob/master/conf/mt4-tester.ini)<br>
 A row taken from the original testfile.txt:<br>
 <u>TestPeriod=M15</u><br>
 The script is able to recognize multiple values divided by an asterisk (\*), for example:<br>
