@@ -5,10 +5,13 @@
 
 
 ; start strategy tester
-  TestExpert=Moving Average
+;  TestExpert=FxNode - Safe Tunnel*ComFracti_final*ComFracti_v2_1*RoNz Auto SL-TS-TP*TrailingAll*5MinutesScalpingEA_v1_1*CompassLineEA_v1_1*Basic Rsi EA Template
+  TestExpert=ComFracti_final*ComFracti_v2_1*FxNode - Safe Tunnel*Basic Rsi EA Template*CompassLineEA_v1_1
   TestExpertParameters=1st.set
-  TestSymbol=EURUSD
-  TestPeriod=M15*M5*M1
+;  TestSymbol=EURUSD*USDJPY*GBPUSD*AUDUSD*USDCHF*NZDUSD*USDCAD*BTCUSD
+  TestSymbol=EURUSD*USDJPY*GBPUSD
+;  TestPeriod=M1*M5*M15*M30*H1*H4*D1
+  TestPeriod=M1*M5*M15*M30*H1
   TestModel=0
   TestOptimization=false
   TestDateEnable=true
